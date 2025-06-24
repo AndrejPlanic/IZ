@@ -1,0 +1,27 @@
+<div class="single-product-page">
+  <div class="single-page-wrapper">
+    <app-single-product-gallery
+      [product]="product"
+    ></app-single-product-gallery>
+    <div class="add-to-cart-box">
+      <h3 class="add-to-cart-title">{{ product?.name }}</h3>
+      <p class="add-to-cart-category">
+        {{ product?.category?.name }} - {{product?.subcategory?.name}}
+      </p>
+      <p class="description-text">{{product?.description}}</p>
+      <p class="in-stock">{{product?.quantity}} items in stock</p>
+      <p class="add-to-cart-price">${{product?.price}}</p>
+      <div class="add-to-cart-qb">
+        <div class="quantity-input">
+          <button (click)="decrease()">−</button>
+          <!-- <input type="number" [(ngModel)]="quantity" min="1" /> -->
+          <p class="quantity-number">{{ quantity }}</p>
+          <button (click)="increase()">+</button>
+        </div>
+        <button class="global-button atc-button" (click)="addToCart()">
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

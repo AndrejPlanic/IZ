@@ -1,0 +1,19 @@
+<div class="checkout-modal">
+  <h2>Checkout</h2>
+
+  <form [formGroup]="checkoutForm" (ngSubmit)="submit()">
+    <input formControlName="name" placeholder="Full Name" />
+    <input formControlName="email" placeholder="Email" />
+    <input formControlName="city" placeholder="City" />
+    <input formControlName="street" placeholder="Street" />
+    <input formControlName="postalCode" placeholder="Postal Code" />
+    <input formControlName="phone" placeholder="Phone Number" />
+
+    <div class="modal-buttons">
+      <button class="global-button" type="submit">Finish Order</button>
+      <button class="global-button" type="button" (click)="cancel()">
+        Cancel
+      </button>
+    </div>
+  </form>
+</div>

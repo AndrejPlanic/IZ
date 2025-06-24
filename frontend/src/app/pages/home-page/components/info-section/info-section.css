@@ -1,0 +1,68 @@
+.info-wrapper {
+  height: 650px;
+  width: 1400px;
+  margin: auto;
+  background-image: url("http://localhost:4200/assets/images/info-section-img.png");
+  background-position: initial;
+  background-repeat: no-repeat;
+  margin-bottom: 150px;
+  position: relative;
+
+  border-radius: 20px;
+}
+
+.info-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin: 0 30px;
+  bottom: 60px;
+}
+
+.info-card-wrapper {
+  height: 165px;
+  position: relative;
+  margin-top: 450px;
+}
+
+.info-card {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  border-radius: 20px;
+  min-width: 272.5px;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+  height: 90px;
+}
+
+.info-card h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--font-color-primary);
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #95a9b1;
+  transition: 0.3s ease-in-out;
+  transform: translateY(85px);
+}
+
+.info-card:hover {
+  height: 165px;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.info-card:hover p {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.info-card:hover .info-icon svg path {
+  fill: #2fac67;
+}

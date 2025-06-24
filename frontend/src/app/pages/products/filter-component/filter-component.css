@@ -1,0 +1,46 @@
+/* category-dropdown.component.css */
+.category-wrapper {
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.category {
+  border-bottom: 1px solid #ddd;
+  padding: 25px 0 0px 0;
+  margin: auto;
+}
+
+.category-header {
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin: auto;
+}
+
+.arrow {
+  transition: transform 0.3s;
+}
+
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+.subcategory-list {
+  list-style: none;
+  padding: 0 0 0 10px;
+  margin-top: 10px;
+  color: #95a9b1;
+}
+
+.subcategory-list li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+li.active {
+  color: green; /* your desired active color */
+  font-weight: bold; /* optional for emphasis */
+}

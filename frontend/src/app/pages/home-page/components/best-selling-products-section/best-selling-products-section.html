@@ -1,0 +1,20 @@
+<div class="bsp-section">
+  <div class="bsp-wrapper">
+    <div class="bsp-title">
+      <div class="bsp-title-text">
+        <span class="span-green">Best selling</span> products
+        <p>
+          Check out our best-selling products, handpicked by outdoor enthusiasts
+          and trusted by adventurers like you.
+        </p>
+      </div>
+      <button class="global-button bsp-button" routerLink="/products">
+        See All
+      </button>
+    </div>
+    <div class="bsp-content">
+      <app-product-card *ngFor="let product of topProducts" [product]="product">
+      </app-product-card>
+    </div>
+  </div>
+</div>

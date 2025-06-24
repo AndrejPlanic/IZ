@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "swiper/css";
+
+:root {
+  --font-color-primary: #122e49;
+  --font-color-secondary: #2fac67;
+  --font-family-secondary: "Caveat", cursive;
+}
+
+body {
+  font-family: "Suisse Intl", sans-serif;
+  color: var(--font-color-primary);
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("assets/fonts/SuisseIntl-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("assets/fonts/SuisseIntl-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("assets/fonts/SuisseIntl-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("assets/fonts/SuisseIntl-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Suisse Intl";
+  src: url("assets/fonts/SuisseIntl-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.global-button {
+  background-color: var(--font-color-primary);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-family: "Suisse Intl", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.global-button:hover {
+  background-color: var(--font-color-secondary);
+  color: white;
+}
+
+.span-green {
+  color: var(--font-color-secondary);
+}
+
+.green-button {
+  background-color: #eafdf2;
+  color: var(--font-color-secondary);
+  border: none;
+  padding: 15px 40px;
+  font-family: "Suisse Intl", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.green-button:hover {
+  background-color: var(--font-color-secondary);
+  color: white;
+}

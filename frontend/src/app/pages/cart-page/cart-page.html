@@ -1,0 +1,57 @@
+<div class="cart-page">
+  <h2 class="cart-page-title">My Cart</h2>
+  <div class="cart-page-content">
+    <ng-container *ngIf="cartItems.length === 0; else cartContent">
+      <div>Empty cart!</div>
+    </ng-container>
+
+    <ng-template #cartContent>
+      <div class="cart-details">
+        <div class="card-details-title">
+          <p>Product Details</p>
+          <p>Quantity</p>
+          <p>Price</p>
+          <p>Total</p>
+        </div>
+        <div class="cart-list">
+          <app-cart-product-card
+            *ngFor="let item of cartItems"
+            [item]="item"
+            (remove)="removeFromCart($event)"
+            (quantityChange)="onQuantityChange($event)"
+          ></app-cart-product-card>
+        </div>
+      </div>
+    </ng-template>
+
+    <div class="check-out">
+      <h3 class="check-out-title">Order Summary</h3>
+      <hr />
+      <div class="sub-total">
+        <p>{{ totalItems }} items</p>
+        <p>{{ totalPrice }}€</p>
+      </div>
+      <div class="shipping">
+        <p>Shipping (Montenegro)</p>
+        <p>20€</p>
+      </div>
+      <hr />
+      <div class="total">
+        <p>Total cost</p>
+        <p>{{ totalPrice + 20 }}€</p>
+      </div>
+      <button
+        class="global-button checkout-btn"
+        (click)="showCheckout = true"
+        [disabled]="cartItems.length === 0"
+      >
+        Checkout
+      </button>
+      <app-checkout-form
+        *ngIf="showCheckout"
+        (close)="showCheckout = false"
+        (finishOrder)="checkoutDone()"
+      ></app-checkout-form>
+    </div>
+  </div>
+</div>

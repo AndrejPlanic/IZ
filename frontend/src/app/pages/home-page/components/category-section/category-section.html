@@ -1,0 +1,84 @@
+<div class="category-wrapper">
+  <div class="category-section">
+    <div class="category-title">
+      <div class="category-title-text">
+        Explore all <span class="span-green">categories</span>
+      </div>
+      <p class="category-title-desc">
+        Discover gear and essentials tailored for your favorite outdoor
+        activities.
+      </p>
+      <button class="global-button" routerLink="/products">See all</button>
+    </div>
+    <div class="category-slider">
+      <swiper-container
+        class="swiper"
+        slides-per-view="3"
+        space-between="30px"
+        loop="true"
+        autoplay-delay="3000"
+      >
+        <swiper-slide *ngFor="let category of categories" class="swiper-slide">
+          <img src="{{category.image_path}}" alt="" />
+          <h4>{{category.name}}</h4>
+          <p>{{category.description}}</p>
+          <!-- <button class="green-button">See category</button> -->
+        </swiper-slide>
+        <!-- <swiper-slide class="swiper-slide">
+          <img src="assets/images/hiking-img.jpg" alt="" />
+          <h4>Fishing</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="assets/images/camping-img.jpg" alt="" />
+          <h4>Hiking</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="assets/images/hiking-img.jpg" alt="" />
+          <h4>Rafting</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="assets/images/camping-img.jpg" alt="" />
+          <h4>Hunting</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="assets/images/camping-img.jpg" alt="" />
+          <h4>Hunting</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide>
+        <swiper-slide class="swiper-slide">
+          <img src="assets/images/camping-img.jpg" alt="" />
+          <h4>Hunting</h4>
+          <p>
+            Description find all best camping equipment and accessories and
+            more!
+          </p>
+          <button class="green-button">See category</button>
+        </swiper-slide> -->
+      </swiper-container>
+    </div>
+  </div>
+</div>

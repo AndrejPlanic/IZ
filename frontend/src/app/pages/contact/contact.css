@@ -1,0 +1,106 @@
+.contact-page {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.contact-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 600px;
+  background-image: url("http://localhost:4200/assets/images/rectangle-contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.contact-wrapper {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.contact-info-container {
+  width: 30%;
+  border: 2px solid #bbe4ce;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.contact-info-container-1 {
+  padding: 30px 30px 0 30px;
+}
+
+.contact-info-title {
+  margin: 0;
+  font-size: 40px;
+}
+
+.contant-info {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contant-info div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contant-info div p {
+  margin: 0;
+  color: #95a9b1;
+}
+
+.visit-us-on {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact-map-container {
+  border: 1px solid var(--font-color-secondary);
+  width: 70%;
+}
+
+.contact-social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-social-media div {
+  background-color: #eafdf2;
+  padding: 20px 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-social-media div:hover {
+  background-color: var(--font-color-secondary);
+}
+
+.image-container-2 {
+  width: 100%;
+  height: 179px;
+  overflow: hidden;
+}
+
+.image-container-2 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+  opacity: 0.6;
+}
+
+.contact-map-container {
+  border-radius: 10px;
+  overflow: hidden;
+}

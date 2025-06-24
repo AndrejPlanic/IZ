@@ -1,0 +1,29 @@
+<div class="login-wrapper">
+  <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate class="login-form">
+    <h2>Login</h2>
+
+    <input
+      type="email"
+      [(ngModel)]="email"
+      name="email"
+      placeholder="Email"
+      required
+    />
+
+    <input
+      type="password"
+      [(ngModel)]="password"
+      name="password"
+      placeholder="Password"
+      required
+    />
+
+    <button class="global-button" type="submit">Login</button>
+
+    <div *ngIf="error" class="error-msg">{{ error }}</div>
+    <p class="alredy-have-account">
+      Don't have an account?
+      <span class="span-green" routerLink="/signup">Register</span>
+    </p>
+  </form>
+</div>

@@ -1,0 +1,100 @@
+<nav class="nav-bar-container">
+  <div routerLink="/" class="nav-logo">
+    <img src="assets/images/logo-icon.png" alt="Logo" />
+    <h2 class="logo-header">Green <br />Gear</h2>
+  </div>
+  <div class="nav-bar">
+    <ul class="nav-bar-links">
+      <li class="hover-line">
+        <a routerLink="/">Home</a>
+      </li>
+      <li class="hover-line"><a routerLink="/products">Products</a></li>
+      <li class="hover-line"><a routerLink="/about-us">About Us</a></li>
+      <li class="hover-line"><a routerLink="/contact">Contact</a></li>
+    </ul>
+    <div class="button-container">
+      <button class="icon-button-cart" routerLink="/cart">
+        <div class="cart-icon-container">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M2 3H4.5L4.78571 5M17 17C15.8954 17 15 17.8954 15 19C15 20.1046 15.8954 21 17 21C18.1046 21 19 20.1046 19 19C19 17.8954 18.1046 17 17 17ZM17 17H9M9 17C7.89543 17 7 17.8954 7 19C7 20.1046 7.89543 21 9 21C10.1046 21 11 20.1046 11 19C11 17.8954 10.1046 17 9 17ZM9 17H6.5L6.07143 14M6.07143 14H18L21 5H4.78571M6.07143 14L4.78571 5"
+              stroke="#2FAC67"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+
+          <span class="cart-badge" *ngIf="totalItems > 0"
+            >{{ totalItems }}</span
+          >
+        </div>
+      </button>
+      <button routerLink="/login" *ngIf="!isLoggedIn" class="icon-button">
+        <img src="assets/icons/user-icon.svg" alt="User" class="icon" />
+        Log In
+      </button>
+      <button *ngIf="isLoggedIn" class="icon-button" (click)="toggleUserMenu()">
+        <svg
+          width="27"
+          height="18"
+          viewBox="0 0 27 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M19.9375 8.11071L16.3894 4.56259L17.2812 3.70196L19.9375 6.35821L25.25 1.04571L26.1347 1.93759L19.9375 8.11071ZM9.25 8.23071C8.21875 8.23071 7.33594 7.86353 6.60156 7.12915C5.86719 6.39478 5.5 5.51196 5.5 4.48071C5.5 3.44946 5.86719 2.56665 6.60156 1.83228C7.33594 1.0979 8.21875 0.730713 9.25 0.730713C10.2812 0.730713 11.1641 1.0979 11.8984 1.83228C12.6328 2.56665 13 3.44946 13 4.48071C13 5.51196 12.6328 6.39478 11.8984 7.12915C11.1641 7.86353 10.2812 8.23071 9.25 8.23071ZM0.5 17.2695V15.2116C0.5 14.6956 0.650208 14.2128 0.950625 13.7632C1.25125 13.3138 1.65552 12.9649 2.16344 12.7163C3.34302 12.1507 4.52333 11.7264 5.70437 11.4435C6.88542 11.1608 8.06729 11.0195 9.25 11.0195C10.4327 11.0195 11.6146 11.1608 12.7956 11.4435C13.9767 11.7264 15.157 12.1507 16.3366 12.7163C16.8445 12.9649 17.2488 13.3138 17.5494 13.7632C17.8498 14.2128 18 14.6956 18 15.2116V17.2695H0.5ZM1.75 16.0195H16.75V15.2116C16.75 14.9344 16.6606 14.6739 16.4819 14.4304C16.3033 14.1869 16.0561 13.9809 15.7403 13.8126C14.7116 13.3143 13.6508 12.9325 12.5581 12.6673C11.4654 12.4021 10.3627 12.2695 9.25 12.2695C8.13729 12.2695 7.03458 12.4021 5.94187 12.6673C4.84917 12.9325 3.78844 13.3143 2.75969 13.8126C2.44385 13.9809 2.19667 14.1869 2.01813 14.4304C1.83938 14.6739 1.75 14.9344 1.75 15.2116V16.0195ZM9.25 6.98071C9.9375 6.98071 10.526 6.73592 11.0156 6.24634C11.5052 5.75675 11.75 5.16821 11.75 4.48071C11.75 3.79321 11.5052 3.20467 11.0156 2.71509C10.526 2.2255 9.9375 1.98071 9.25 1.98071C8.5625 1.98071 7.97396 2.2255 7.48438 2.71509C6.99479 3.20467 6.75 3.79321 6.75 4.48071C6.75 5.16821 6.99479 5.75675 7.48438 6.24634C7.97396 6.73592 8.5625 6.98071 9.25 6.98071Z"
+            fill="#2FAC67"
+          />
+        </svg>
+      </button>
+      <div class="user-dropdown" *ngIf="userMenuOpen">
+        <div class="user-name">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18 18.7083C18 17.0886 16.8283 15 15 15H9C7.17172 15 6 17.0886 6 18.7083M3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12ZM15 9C15 10.6569 13.6569 12 12 12C10.3431 12 9 10.6569 9 9C9 7.34315 10.3431 6 12 6C13.6569 6 15 7.34315 15 9Z"
+              stroke="var(--font-color-secondary)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          {{ user?.name }}
+        </div>
+        <hr />
+        <div class="user-email">{{ user?.email }}</div>
+        <hr />
+        <div class="logout" (click)="logout()">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 4H18C19.1046 4 20 4.89543 20 6L20 18C20 19.1046 19.1046 20 18 20H15M11 16L15 12M15 12L11 8M15 12H3"
+              stroke="var(--font-color-secondary)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Logout
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

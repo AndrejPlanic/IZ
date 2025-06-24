@@ -1,0 +1,18 @@
+<div class="products-page">
+  <h2 class="products-page-title">
+    Let's <span class="span-green">Explore products</span> together
+  </h2>
+  <div class="products-main">
+    <div class="filter-component">
+      <app-filter-component
+        (filterChange)="onFilterChange($event)"
+        (filterChange2)="onFilterChange2($event)"
+      ></app-filter-component>
+    </div>
+    <div class="products-list">
+      <div *ngIf="products.length === 0">No products found.</div>
+      <app-product-card *ngFor="let product of products" [product]="product">
+      </app-product-card>
+    </div>
+  </div>
+</div>

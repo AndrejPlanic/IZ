@@ -1,0 +1,128 @@
+.single-product-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 200px;
+  background-image: url("http://localhost:4200/assets/images/rectangle-about-us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.single-product-page::after {
+  content: "";
+  position: absolute;
+  bottom: 470px;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-image: url("http://localhost:4200/assets/images/planine.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.single-product-page {
+  width: 1400px;
+  margin: auto;
+}
+
+.single-page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 70px;
+}
+
+.add-to-cart-box {
+  width: 30%;
+}
+
+.add-to-cart-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.add-to-cart-category {
+  color: #2fac67;
+  margin-bottom: 15px;
+}
+
+.in-stock {
+  color: var(--font-color-secondary);
+}
+
+.add-to-cart-price {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.add-to-cart-qb {
+  display: flex;
+  gap: 50px;
+}
+
+.quantity-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--font-color-secondary);
+  width: fit-content;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.quantity-number {
+  font-size: 18px;
+  width: 36px;
+  margin: 0;
+  text-align: center;
+}
+
+.quantity-input button {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  background-color: #eafdf2;
+  border: 2px solid #eafdf2;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.quantity-input button:hover {
+  background-color: var(--font-color-secondary);
+}
+
+.desc-spec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sp-description {
+  margin-top: 20px;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.description-title {
+  font-size: 30px;
+  color: var(--font-color-secondary);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.spec-text {
+  text-align: center;
+}
+
+.description-text {
+  color: #95a9b1;
+  line-height: 1.4;
+}

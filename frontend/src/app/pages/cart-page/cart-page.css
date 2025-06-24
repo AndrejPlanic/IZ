@@ -1,0 +1,104 @@
+.cart-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 300px;
+  background-image: url("http://localhost:4200/assets/images/rectangle-about-us.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  pointer-events: none;
+  z-index: -2;
+}
+
+.cart-page::after {
+  content: "";
+  position: absolute;
+  bottom: 370px;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-image: url("http://localhost:4200/assets/images/planine.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.cart-page {
+  width: 1400px;
+  margin: auto;
+}
+
+.cart-page-title {
+  font-size: 40px;
+  color: var(--font-color-secondary);
+  text-align: center;
+  margin-top: 70px;
+}
+
+.cart-page-content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.cart-details {
+  width: 65%;
+}
+
+.check-out {
+  width: 35%;
+}
+
+.card-details-title {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.card-details-title p:first-child {
+  padding: 0 220px 0 70px;
+}
+
+.card-details-title p:nth-child(2) {
+  padding: 0 90px 0 0;
+}
+
+.card-details-title p:nth-child(3) {
+  padding: 0 90px 0 0;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Checkout */
+.check-out {
+  border: 2px solid var(--font-color-primary);
+  border-radius: 5px;
+  padding: 20px 30px;
+  height: 340px;
+  width: 468px;
+}
+
+.check-out div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout-btn {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.checkout-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

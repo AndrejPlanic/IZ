@@ -1,0 +1,71 @@
+.bsp-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.bsp-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.bsp-title-text p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #95a9b1;
+}
+
+.bsp-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px 30px;
+}
+
+.bsp-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.bsp-card-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.bsp-card-title {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+.bsp-card-category {
+  font-size: 14px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bsp-card-price {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bsp-card-price div {
+  text-align: right;
+}
+
+.bsp-card-price div {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bsp-card-price div p {
+  font-size: 10px;
+  font-weight: 400;
+  color: grey;
+  margin: 0;
+}

@@ -1,0 +1,63 @@
+# === Node backend ===
+backend/node_modules/
+backend/.env
+backend/uploads/
+backend/npm-debug.log
+backend/*.log
+
+# === Angular frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/*.log
+
+# === OS / IDE files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Docker files (optional) ===
+**/.dockerignore
+
+# === Miscellaneous logs ===
+*.log
+npm-debug.log
+yarn-error.log
+
+# === Compiled output ===
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# === Node modules (general) ===
+/node_modules
+
+# === IDEs and editors ===
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# === Visual Studio Code specific ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# === Cache and coverage ===
+/.angular/cache
+.sass-cache/
+/coverage
+
+# === Miscellaneous ===
+/connect.lock
+/libpeerconnection.log
+testem.log
+/typings
