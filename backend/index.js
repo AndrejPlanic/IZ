@@ -1,10 +1,11 @@
 const app = require("./src/app");
-
-const PORT = process.env.PORT;
-
+const { ChromaClient } = require("chromadb");
+const chroma = new ChromaClient();
 const dotenv = require("dotenv");
 dotenv.config();
 const OpenAI = require("openai");
+
+const PORT = process.env.PORT;
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
@@ -12,20 +13,36 @@ const openai = new OpenAI({
 
 app.post("/api/ask", async (req, res) => {
   try {
-    const { question, contextChunks } = req.body;
+    const { question } = req.body;
 
-    const safeChunks = Array.isArray(contextChunks) ? contextChunks : [];
+    // 1. Dobij embedding pitanja
+    const embeddingResponse = await openai.embeddings.create({
+      model: "text-embedding-3-small",
+      input: question,
+    });
 
-    const prompt = `Odgovori korisniku:\n\n${safeChunks.join(
+    const embedding = embeddingResponse.data[0].embedding;
+
+    // 2. Pretraži vektorsku bazu
+    const collection = await chroma.getCollection({ name: "greengear" });
+    const result = await collection.query({
+      queryEmbeddings: [embedding],
+      nResults: 3,
+    });
+
+    const contextChunks = result.documents[0]; // uzimamo top 3 sekcije
+
+    // 3. Kreiraj prompt sa relevantnim kontekstom
+    const prompt = `Answer user:\n\n${contextChunks.join(
       "\n"
-    )}\n\nPitanje: ${question}`;
+    )}\n\nQuestion: ${question}`;
 
     const response = await openai.chat.completions.create({
       model: "gpt-4o",
       messages: [
         {
           role: "system",
-          content: "Odgovaraj tačno i samo na osnovu datih informacija.",
+          content: "Answer correctly and only based on the given information",
         },
         { role: "user", content: prompt },
       ],
@@ -33,24 +50,18 @@ app.post("/api/ask", async (req, res) => {
 
     res.json({ answer: response.choices[0].message.content });
   } catch (error) {
-    console.error("❌ Greška u /api/ask:", error);
+    console.error("❌ Error in /api/ask:", error);
 
     if (error instanceof OpenAI.APIError) {
-      console.error(
-        "📛 OpenAI API greška:",
-        error.status,
-        error.message,
-        error.code
-      );
       res.status(500).json({
-        error: "Greška pri kontaktiranju OpenAI API-ja.",
+        error: "Error contaction OpenAI API.",
         status: error.status,
         message: error.message,
         code: error.code,
       });
     } else {
       res.status(500).json({
-        error: "Nepoznata greška na serveru.",
+        error: "Unknowns error on server.",
         message: error.message,
       });
     }

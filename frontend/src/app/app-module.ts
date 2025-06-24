@@ -29,6 +29,8 @@ import { Login } from './pages/login/login';
 import { Signup } from './pages/signup/signup';
 import { CheckoutForm } from './pages/cart-page/checkout-form/checkout-form';
 import { ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
+import { Chatbot } from './core/chatbot/chatbot';
 
 @NgModule({
   declarations: [
@@ -54,6 +56,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     Login,
     Signup,
     CheckoutForm,
+    Chatbot,
   ],
   imports: [
     BrowserModule,
@@ -63,6 +66,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    CommonModule,
   ],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],
