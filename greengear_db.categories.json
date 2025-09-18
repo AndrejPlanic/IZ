@@ -1,0 +1,285 @@
+[{
+  "_id": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "name": "Hiking",
+  "description": "Explore mountain trails and rugged terrain with gear built for endurance.",
+  "image_path": "http://localhost:5000/uploads/categories/hiking-img.jpg",
+  "parent": null,
+  "createdAt": {
+    "$date": "2025-06-06T23:30:44.686Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-06T23:30:44.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "name": "Camping",
+  "description": "Enjoy the outdoors with cozy, reliable gear for nights under the stars.",
+  "image_path": "http://localhost:5000/uploads/categories/camping-img.jpg",
+  "parent": null,
+  "createdAt": {
+    "$date": "2025-06-06T23:34:23.164Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-06T23:34:23.164Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "name": "Rafting",
+  "description": "Tackle wild rivers with equipment made for adrenaline and control.",
+  "image_path": "uploads/categories/rafting-img.jpg",
+  "parent": null,
+  "createdAt": {
+    "$date": "2025-06-06T23:35:28.030Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-06T23:35:28.030Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "name": "Kayaking",
+  "description": "Glide through lakes and rapids with performance-driven paddle gear.",
+  "image_path": "uploads/categories/kayaking-img.jpg",
+  "parent": null,
+  "createdAt": {
+    "$date": "2025-06-06T23:42:53.681Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-06T23:42:53.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684383f6364954f15c5dcc08"
+  },
+  "name": "Chairs & Tables",
+  "description": "",
+  "parent": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:12:38.290Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:12:38.290Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438817e7639e930abab2ad"
+  },
+  "name": "Camp Kitchen",
+  "description": "",
+  "parent": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:30:15.509Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:30:15.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684389bb90f4374fb2b85c17"
+  },
+  "name": "Dry Boxes",
+  "description": "",
+  "parent": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:37:15.650Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:37:15.650Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684389e790f4374fb2b85c19"
+  },
+  "name": "Rafts",
+  "description": "",
+  "parent": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:37:59.563Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:37:59.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438a0690f4374fb2b85c1b"
+  },
+  "name": "River Tubes",
+  "description": "",
+  "parent": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:38:30.128Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:38:30.128Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438a2890f4374fb2b85c1d"
+  },
+  "name": "Packrafts",
+  "description": "",
+  "parent": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:39:04.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:39:04.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438a6690f4374fb2b85c1f"
+  },
+  "name": "Kayaks",
+  "description": "",
+  "parent": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:40:06.240Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:40:06.240Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438a7d90f4374fb2b85c21"
+  },
+  "name": "Helmets",
+  "description": "",
+  "parent": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:40:29.343Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:40:29.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438a9690f4374fb2b85c23"
+  },
+  "name": "Dry Bags",
+  "description": "",
+  "parent": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:40:54.544Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:40:54.544Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438ae790f4374fb2b85c29"
+  },
+  "name": "Raft Paddles",
+  "description": "",
+  "parent": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:42:15.818Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:42:15.818Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438b9090f4374fb2b85c2b"
+  },
+  "name": "Poles",
+  "description": "",
+  "parent": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:45:04.463Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:45:04.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438bb090f4374fb2b85c2d"
+  },
+  "name": "Bags",
+  "description": "",
+  "parent": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:45:36.055Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:45:36.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68438bbf90f4374fb2b85c2f"
+  },
+  "name": "Other Equipment",
+  "description": "",
+  "parent": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "createdAt": {
+    "$date": "2025-06-07T00:45:51.027Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-07T00:45:51.027Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,815 @@
+[{
+  "_id": {
+    "$oid": "684d39fc1e51ca47f636a3a7"
+  },
+  "name": "NRS E-120D Raft",
+  "description": "The NRS E-120D is a versatile, compact raft built for adventure. Whether outfitted with a fishing frame\n for calm rivers or packed with paddlers for thrilling whitewater, it adapts to your needs.",
+  "price": 5950,
+  "quantity": 45,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "684389e790f4374fb2b85c19"
+  },
+  "featuredImage": "uploads/products/featured/1-raft.jpg",
+  "images": [
+    "uploads/products/gallery/1-1-raft.jpg",
+    "uploads/products/gallery/1-2-raft.jpg",
+    "uploads/products/gallery/1-3-raft.jpg",
+    "uploads/products/gallery/1-4-raft.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-14T08:59:40.912Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T08:59:40.912Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d3b431e51ca47f636a3a9"
+  },
+  "name": "NRS Otter Livery 96 Raft",
+  "description": "The NRS Otter Livery 96 is built tough with 41oz./1100 denier premium\n Pennel Orca® fabric. It features two sturdy handles at the front and rear for easy carrying and transport.",
+  "price": 2970,
+  "quantity": 35,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "684389e790f4374fb2b85c19"
+  },
+  "featuredImage": "uploads/products/featured/2-raft.jpg",
+  "images": [
+    "uploads/products/gallery/2-1-raft.jpg",
+    "uploads/products/gallery/2-2-raft.jpg",
+    "uploads/products/gallery/2-3-raft.jpg",
+    "uploads/products/gallery/2-4-raft.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-14T09:05:07.717Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T09:05:07.717Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d3c171e51ca47f636a3ab"
+  },
+  "name": "NRS Approach 100 Raft",
+  "description": "Toss your gear in the trunk, grab some tie-downs, and get ready to hit\n the water—trailer-free—with the NRS Approach 100. ",
+  "price": 3800,
+  "quantity": 60,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "684389e790f4374fb2b85c19"
+  },
+  "featuredImage": "http://localhost:5000/uploads/products/featured/3-raft.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/3-1-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-2-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-3-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-4-raft.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-14T09:08:39.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T09:08:39.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684d3d0f1e51ca47f636a3ad"
+  },
+  "name": "NRS Otter 120D Raft",
+  "description": "The 120D replaces the Otter 120. It’s a slightly diminished tube design\n that opens up more room in the end compartments for fishermen or overnight gear. \n",
+  "price": 4700,
+  "quantity": 20,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "684389e790f4374fb2b85c19"
+  },
+  "featuredImage": "uploads/products/featured/4-raft.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/4-1-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-2-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-3-raft.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-4-raft.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-14T09:12:47.233Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-14T09:12:47.233Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ed6c78ad424e4b0ffd7cc"
+  },
+  "name": "STAR Paragon Kayak",
+  "description": "Featuring keel inserts in the bow and stern and a removable skeg, the\n STAR Paragon Inflatable Kayak handles and tracks like a hard-shell with the stow-ability we’ve grown to love. ",
+  "price": 550,
+  "quantity": 27,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a6690f4374fb2b85c1f"
+  },
+  "featuredImage": "uploads/products/featured/1-kayak.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-4-kayak.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T14:20:55.886Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T14:20:55.886Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ed7f98ad424e4b0ffd82f"
+  },
+  "name": "STAR Paragon XL Kayak",
+  "description": "Featuring keel inserts in the bow and stern and a removable skeg, the\n STAR Paragon Inflatable Kayak handles and tracks like a hard-shell with the stow-ability we’ve grown to love.",
+  "price": 620,
+  "quantity": 10,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a6690f4374fb2b85c1f"
+  },
+  "featuredImage": "uploads/products/featured/2-kayak.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-3-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-4-kayak.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T14:26:01.670Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T14:26:01.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ed8698ad424e4b0ffd83c"
+  },
+  "name": "STAR Paragon Tandem Kayak",
+  "description": "Because paddling with a buddy is always more fun, the STAR Paragon Tandem\n Inflatable Kayak features rigid inserts to create a traditional keel-shaped hull, a removable skeg for efficient tracking, and room for two paddlers.\n",
+  "price": 690,
+  "quantity": 13,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a6690f4374fb2b85c1f"
+  },
+  "featuredImage": "uploads/products/featured/3-kayak.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/3-1-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-2-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-3-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-4-kayak.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T14:27:53.870Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T14:27:53.870Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ed8dd8ad424e4b0ffd84c"
+  },
+  "name": "STAR Raven Pro Kayak",
+  "description": "Because paddling with a buddy is always more fun, the STAR Paragon \nTandem Inflatable Kayak features rigid inserts to create a traditional keel-shaped hull, a removable skeg for efficient tracking, and room for two paddlers.\n",
+  "price": 1090,
+  "quantity": 17,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a6690f4374fb2b85c1f"
+  },
+  "featuredImage": "uploads/products/featured/4-kayak.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/4-1-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-2-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-3-kayak.jpg",
+    "http://localhost:5000/uploads/products/gallery/4-4-kayak.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T14:29:49.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T14:29:49.633Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f547d8f6e35f26e930c8c"
+  },
+  "name": "NRS River Float Tube",
+  "description": "With an extended center-to-center compartment, the NRS Big River Float Tube provides the same fun as the Wild River Tube with more room and greater buoyancy for larger river rats.",
+  "price": 200,
+  "quantity": 16,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438a0690f4374fb2b85c1b"
+  },
+  "featuredImage": "uploads/products/featured/1-tube.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-tube.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-tube.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-tube.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-4-tube.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:17:17.439Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:17:17.439Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f55738f6e35f26e930ca7"
+  },
+  "name": "STAR Makara River Tube",
+  "description": "The STAR Makara River Tube combines the traditional design of your favorite tube with premium materials and quality construction methods.Ergonomically placed handles provide comfort and security.",
+  "price": 180,
+  "quantity": 36,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438a0690f4374fb2b85c1b"
+  },
+  "featuredImage": "uploads/products/featured/2-tube.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-tube.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-tube.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:21:23.135Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:21:23.135Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f562c8f6e35f26e930cb1"
+  },
+  "name": "NRS Neutron Packraft",
+  "description": "When you’re looking to tackle just about anything nature throws at you with one watercraft, the Neutron Packraft’s thigh braces, detachable backband, self-bailing floor and waterproof internal storage.",
+  "price": 1180,
+  "quantity": 37,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438a2890f4374fb2b85c1d"
+  },
+  "featuredImage": "uploads/products/featured/1-packraft.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-packraft.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-packraft.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-packraft.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-4-packraft.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:24:28.687Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:24:28.687Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f57728f6e35f26e930cce"
+  },
+  "name": "Werner Carbon Paddle",
+  "description": "The Werner Kalliste’s blades have an exceptionally light and buoyant feel on the water and offer silky smooth strokes. The mid-size design is perfect for average-size low-angle paddlers.",
+  "price": 150,
+  "quantity": 57,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438ae790f4374fb2b85c29"
+  },
+  "featuredImage": "uploads/products/featured/1-raft-paddle.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-raft-paddle.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:29:54.108Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:29:54.108Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f581b8f6e35f26e930cfe"
+  },
+  "name": "Werner Camano Paddle",
+  "description": "The Camano features Werner’s most popular low-angle, mid-size blade design. The perfect paddle for kayakers who use a relaxed, all-around touring stroke and want gentle, efficient, all-day power.",
+  "price": 190,
+  "quantity": 32,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438ae790f4374fb2b85c29"
+  },
+  "featuredImage": "uploads/products/featured/2-raft-paddle.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-3-raft-paddle.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:32:43.728Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:32:43.728Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f58748f6e35f26e930d00"
+  },
+  "name": "Werner Shuna Paddle",
+  "description": "The Werner Shuna is a classic all-around high-angle paddle. The versatile mid-size blades fit a wide range of kayakers for both technical paddling and general touring.",
+  "price": 170,
+  "quantity": 36,
+  "category": {
+    "$oid": "68437b40364954f15c5dcbfe"
+  },
+  "subcategory": {
+    "$oid": "68438ae790f4374fb2b85c29"
+  },
+  "featuredImage": "uploads/products/featured/3-raft-paddle.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/3-1-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-2-raft-paddle.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-3-raft-paddle.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:34:12.168Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:34:12.168Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f597a8f6e35f26e930d62"
+  },
+  "name": "NRS Neso Helmet",
+  "description": "A do-it-all whitewater helmet for rafters, kayakers, packrafters and stand up paddlers ready to step up and charge. Safe and economical, the NRS Neso Helmet delivers comfortable head protection.",
+  "price": 70,
+  "quantity": 46,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a7d90f4374fb2b85c21"
+  },
+  "featuredImage": "uploads/products/featured/1-helmet.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-4-helmet.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:38:34.865Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:38:34.865Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f59f08f6e35f26e930d78"
+  },
+  "name": "NRS Tactyl Helmet",
+  "description": "Designed for the needs of rescue professionals, the NRS Tactyl Helmet delivers adaptable comfort and rugged protection in a lightweight and refined package.",
+  "price": 100,
+  "quantity": 96,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a7d90f4374fb2b85c21"
+  },
+  "featuredImage": "uploads/products/featured/2-helmet.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-3-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-4-helmet.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:40:32.520Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:40:32.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f5a668f6e35f26e930d7a"
+  },
+  "name": "WRSI Current Helmet",
+  "description": "Constructed with high-quality materials and advanced technologies, the WRSI Current Helmet is anything but basic. Combined with a plush inner lining, it can’t be beat in safety or comfort.",
+  "price": 120,
+  "quantity": 46,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a7d90f4374fb2b85c21"
+  },
+  "featuredImage": "uploads/products/featured/3-helmet.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/3-1-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-2-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-3-helmet.jpg",
+    "http://localhost:5000/uploads/products/gallery/3-4-helmet.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:42:30.118Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:42:30.118Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f5b808f6e35f26e930dcd"
+  },
+  "name": "NRS Ether Dry Bag",
+  "description": "A lightweight dry bag that doesn’t take waterproof protection lightly. The Ether HydroLock combines our folding StormStrip™ seal and HydroLock zip closure.",
+  "price": 40,
+  "quantity": 44,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a9690f4374fb2b85c23"
+  },
+  "featuredImage": "uploads/products/featured/1-drybag.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-drybag.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-drybag.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:47:12.548Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:47:12.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f5bd58f6e35f26e930dcf"
+  },
+  "name": "NRS Tuff Sacks",
+  "description": "A lightweight dry bag that doesn’t take waterproof protection lightly. The Ether HydroLock combines our folding StormStrip™ seal and HydroLock zip closure.",
+  "price": 25,
+  "quantity": 24,
+  "category": {
+    "$oid": "68437cfd364954f15c5dcc00"
+  },
+  "subcategory": {
+    "$oid": "68438a9690f4374fb2b85c23"
+  },
+  "featuredImage": "uploads/products/featured/2-drybag.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-drybag.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-drybag.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-15T23:48:37.077Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T23:48:37.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fba4ddcee51babaee7b2c"
+  },
+  "name": "ENO Lounger DL Mesh Chair",
+  "description": "Who says lightweight adventure can’t be luxurious? The ENO Lounger™ DL Mesh Chair delivers nap-worthy comfort in a compact and convenient design that sets up in seconds.",
+  "price": 55,
+  "quantity": 34,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "684383f6364954f15c5dcc08"
+  },
+  "featuredImage": "uploads/products/featured/1-chair.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-chair.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-chair.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-chair.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:31:41.873Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:31:41.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fba9cdcee51babaee7b2e"
+  },
+  "name": "ENO Lounger SL Chair",
+  "description": "Lightweight, compact and portable, the ENO Lounger SL Chair combines high-profile comfort with low-profile seating. Its premium construction is packed with the strength to withstand any adventure",
+  "price": 65,
+  "quantity": 22,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "684383f6364954f15c5dcc08"
+  },
+  "featuredImage": "uploads/products/featured/2-chair.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-chair.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:33:00.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:33:00.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbb14dcee51babaee7b46"
+  },
+  "name": "NRS Campsite Counter",
+  "description": "Prep your food, cook it and wash up after the meal on the NRS Campsite Counter. Then, strap it on your frame for passenger seating or gear loading. It’s the ultimate multitasker!",
+  "price": 165,
+  "quantity": 52,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "684383f6364954f15c5dcc08"
+  },
+  "featuredImage": "uploads/products/featured/1-table.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-table.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-table.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-table.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:35:00.152Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:35:00.152Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbba3dcee51babaee7b6a"
+  },
+  "name": "GSI Guidecast Dutch Oven",
+  "description": "There’s no reason to ditch the dutch brownies, even on self-support trips! The GSI Guidecast Dutch Oven delivers traditional dutch oven performance without the heft.",
+  "price": 35,
+  "quantity": 32,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "68438817e7639e930abab2ad"
+  },
+  "featuredImage": "uploads/products/featured/1-kichen.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-kichen.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-kichen.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:37:23.522Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:37:23.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbc0adcee51babaee7b6c"
+  },
+  "name": "GSI Bugaboo Base Camper",
+  "description": "Featuring a non-stick ceramic coating on the pots and pan, the GSI Outdoors Bugaboo Base Camper set makes it easy to whip up a feast off-grid. Choose one of three set sizes to fuel your adventure.",
+  "price": 85,
+  "quantity": 44,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "68438817e7639e930abab2ad"
+  },
+  "featuredImage": "uploads/products/featured/2-kichen.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-kichen.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-kichen.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-3-kichen.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:39:06.205Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:39:06.205Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbc8cdcee51babaee7b6e"
+  },
+  "name": "NRS Canyon Camping Dry Box",
+  "description": "When you’re enjoying the great outdoors, keep your food and camping gear dry and protected with the NRS Canyon Camping Dry Box. The sturdy and economical solution you’ve been waiting for.",
+  "price": 65,
+  "quantity": 77,
+  "category": {
+    "$oid": "68437aff364954f15c5dcbfc"
+  },
+  "subcategory": {
+    "$oid": "684389bb90f4374fb2b85c17"
+  },
+  "featuredImage": "uploads/products/featured/1-drybox.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-drybox.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-drybox.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-3-drybox.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:41:16.218Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:41:16.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbe0bdcee51babaee7b8a"
+  },
+  "name": "NRS Taj M’Haul Deck Bag",
+  "description": "Keep snacks, rain gear, maps and gadgets close at hand with the roomy NRS Taj M’Haul Deck Bag. It’s also a home for safety essentials such as your bilge pump, paddle float and sponge.",
+  "price": 125,
+  "quantity": 27,
+  "category": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "subcategory": {
+    "$oid": "68438bb090f4374fb2b85c2d"
+  },
+  "featuredImage": "uploads/products/featured/1-bag.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-bag.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-bag.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:47:39.371Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:47:39.371Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbe4edcee51babaee7b8c"
+  },
+  "name": "NRS SUP Board Travel Pack",
+  "description": "The durable NRS SUP Board Travel Pack can fit a folded inflatable SUP, 3-piece breakdown paddle and pump, as well as the accessories needed to get on the water.",
+  "price": 120,
+  "quantity": 22,
+  "category": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "subcategory": {
+    "$oid": "68438bb090f4374fb2b85c2d"
+  },
+  "featuredImage": "uploads/products/featured/2-bag.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-bag.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-bag.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:48:46.293Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:48:46.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbec3dcee51babaee7b8e"
+  },
+  "name": "NRS Lotic Knife",
+  "description": "Our answer to the everyday carry knife, the Lotic Knife is a more compact version of the Pilot Access. A dual-edged stainless-steel blade lets the user do more with less, while the folding design makes it easy to bring along on any adventure.",
+  "price": 40,
+  "quantity": 23,
+  "category": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "subcategory": {
+    "$oid": "68438bbf90f4374fb2b85c2f"
+  },
+  "featuredImage": "uploads/products/featured/1-eq.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/1-1-eq.jpg",
+    "http://localhost:5000/uploads/products/gallery/1-2-eq.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:50:43.197Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:50:43.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbf52dcee51babaee7bd7"
+  },
+  "name": "NRS Photic Knife",
+  "description": "Our answer to the everyday carry knife, the Lotic Knife is a more compact version of the Pilot Access. A dual-edged stainless-steel blade lets the user do more with less, while the folding design makes it easy to bring along on any adventure.",
+  "price": 60,
+  "quantity": 63,
+  "category": {
+    "$oid": "68437a24364954f15c5dcbfa"
+  },
+  "subcategory": {
+    "$oid": "68438bbf90f4374fb2b85c2f"
+  },
+  "featuredImage": "uploads/products/featured/2-eq.jpg",
+  "images": [
+    "http://localhost:5000/uploads/products/gallery/2-1-eq.jpg",
+    "http://localhost:5000/uploads/products/gallery/2-2-eq.jpg"
+  ],
+  "createdAt": {
+    "$date": "2025-06-16T06:53:06.801Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:53:06.801Z"
+  },
+  "__v": 0
+}]

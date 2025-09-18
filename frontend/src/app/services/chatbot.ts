@@ -4,7 +4,7 @@ import { firstValueFrom } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class ChatbotService {
-  private apiUrl = 'http://localhost:5000/api/ask'; // zamijeni ako koristiš drugi backend
+  private apiUrl = 'http://localhost:5000/api/ask';
 
   constructor(private http: HttpClient) {}
 

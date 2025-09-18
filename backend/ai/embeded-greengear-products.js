@@ -8,18 +8,18 @@ const chroma = new ChromaClient();
 
 async function main() {
   const data = JSON.parse(
-    fs.readFileSync("./jsons/greengear_info_semantic.json", "utf-8")
+    fs.readFileSync("./jsons/greengear_product_semantic.json", "utf-8")
   );
 
   try {
-    await chroma.deleteCollection({ name: "greengear" });
+    await chroma.deleteCollection({ name: "greengear_products" });
     console.log("Collections deleted");
   } catch (err) {
     console.error("Error deleting collections:", err);
   }
 
   const collection = await chroma.getOrCreateCollection({
-    name: "greengear",
+    name: "greengear_products",
     embeddingFunction: null,
   });
 
@@ -31,16 +31,16 @@ async function main() {
     });
 
     await collection.add({
-      ids: [`chunk-${i}`],
+      ids: [`product-${i}`],
       embeddings: [embedding.data[0].embedding],
-      metadatas: [{ section: chunk.section }],
+      metadatas: [{ section: chunk.chunk }],
       documents: [chunk.text],
     });
 
-    console.log(`✅ Added: ${chunk.section}`);
+    console.log(`✅ Added: ${chunk.chunk}`);
   }
 
-  console.log("🎉 Finished!");
+  console.log("🎉 Product embedding finished!");
 }
 
 main().catch(console.error);

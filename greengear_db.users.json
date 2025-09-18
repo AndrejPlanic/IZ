@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "684ee1550e05362c341d333d"
+  },
+  "name": "John Mack",
+  "email": "johnmac@example.com",
+  "password": "$2b$10$vbHHJr0clokP67dne6IFEOXeC.OnpncnPYn5pXSFzTbn71Uwhwf76",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T15:05:57.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T15:05:57.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ef6c2eddfda3345de877e"
+  },
+  "name": "Dave Chapel",
+  "email": "davechapel@example.com",
+  "password": "$2b$10$r.06Yo4R0AKRltQ8up4ETOegA.neY81ddqxc3RUM0Fy1avquzjc8y",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T16:37:22.177Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T16:37:22.177Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ef705eddfda3345de8781"
+  },
+  "name": "Andrej Planic",
+  "email": "andrejplanic@gmail.com",
+  "password": "$2b$10$y1foiC0pR6w6pKAKMq1Blu2eorIzTaUG90fqUf9t4iwy7d.cZhLWS",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T16:38:29.012Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T16:38:29.012Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684ef952059afc39784a5864"
+  },
+  "name": "Andrej Planic",
+  "email": "andrej@gmail.com",
+  "password": "$2b$10$N6iXGdj18EYQgt04MolyI.lo7VfDQLtiDl6osFrQ1YES9hTCwUpHq",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T16:48:18.571Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T16:48:18.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f4385bed9c12e7977537a"
+  },
+  "name": "Test Test",
+  "email": "test@gma",
+  "password": "$2b$10$8QYbTcLaGYkIauTCAzaRtea28mydcU6A5TvdfMWIy1iQOYUDqpDnW",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T22:04:53.722Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T22:04:53.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f446a8f6e35f26e930b98"
+  },
+  "name": "Andrej Planic",
+  "email": "andrejpl2anic@gmail.com",
+  "password": "$2b$10$OOBoTAALmEf1R7e7rIWAEuZ00vWngVusSuO0JQg8Zvk5.ExUafpPu",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T22:08:42.374Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T22:08:42.374Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f44958f6e35f26e930b9f"
+  },
+  "name": "Dave Chapel",
+  "email": "dave2chapel@example.com",
+  "password": "$2b$10$n2/zEYlpAipV3hM22A.NL.CB4LLFuT2D6zVPCsKbrH1nF0l/gwJjW",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T22:09:25.107Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T22:09:25.107Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684f45428f6e35f26e930ba6"
+  },
+  "name": "Andrej Planic",
+  "email": "andrejplanic2@gmail.com",
+  "password": "$2b$10$xKQt/q3XfkMiDFxVNIncfOjCbG0Y4W0so5oALhtC/l5gEuQ1SNMuK",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-15T22:12:18.548Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-15T22:12:18.548Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684fbfa2dcee51babaee7c24"
+  },
+  "name": "Aleksandra P",
+  "email": "aleksandrap@gmail.com",
+  "password": "$2b$10$EX9xuTEbyaidMd6W.e4v0.fjtenoQhjZbDD1x8qmYgYc66j4K/GIe",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-16T06:54:26.710Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-16T06:54:26.710Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68a887ecdf8715d948cb2aa0"
+  },
+  "name": "Andrej Planic",
+  "email": "andrejplanic1@gmail.com",
+  "password": "$2b$10$hFsVLQR/XTqO9xSLazSNXuUf8vj0a12qZxnUYOqGsVDKIFjlHxZcC",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-08-22T15:08:28.350Z"
+  },
+  "updatedAt": {
+    "$date": "2025-08-22T15:08:28.350Z"
+  },
+  "__v": 0
+}]
